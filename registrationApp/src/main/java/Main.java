@@ -1,9 +1,11 @@
+import Login.Login;
+
 public class Main {
 
     public static void main(String[] args){
-        System.out.println("рип");
+        System.out.println("rip");
         //new JFormattedTextFieldTest();
-        Frame frame = new Frame();
-        frame.start();
+        Login login = new Login();
+        login.start();
     }
 }
